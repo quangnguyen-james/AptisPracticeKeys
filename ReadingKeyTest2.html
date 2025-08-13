@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUIT B2 Aptis - Reading Test 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .question {
+            display: none; /* Ẩn tất cả các section ban đầu */
+        }
+        .question.active {
+            display: block; /* Chỉ hiển thị section có class active */
+        }
+        .question h2 {
+            color: #333;
+        }
+        .answers {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .buttons button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .buttons button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+	.green-text {
+        	color: green;
+    	}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: blue;">HUIT B2 Aptis - Reading Test 2</h1>             
+        </header>        
+
+        <section id="q1" class="question">
+            <h2>Reading Question 1 of 5: Email from Henry to Mark</h2>
+            <p>Choose one word from the list for each gap. The first one is done for you.</p>
+            <p><strong>Dear Mark,</strong><br>I just <em><strong>graduated</strong></em> (example) from university.</p>
+            <p>I <strong class="green-text">[live]</strong> in an apartment near the city center.<br>
+               I <strong class="green-text">[share]</strong> the apartment with a friend.<br>
+               She and I were in the same <strong class="green-text">[class]</strong> at school.<br>
+               We <strong class="green-text">[drive]</strong> to work in my car.<br>
+               In the evenings, we like to <strong class="green-text">[cook]</strong> different food.</p>
+            <div class="answers">                
+                <p><strong>Giải thích:</strong><br>
+                1. Tôi sống trong một căn hộ gần trung tâm thành phố.<br>
+                2. Tôi chia sẻ căn hộ với một người bạn.<br>
+                3. Cô ấy và tôi học cùng lớp ở trường.<br>
+                4. Chúng tôi lái xe của tôi đến nơi làm việc.<br>
+                5. Vào buổi tối, chúng tôi thích nấu những món ăn khác nhau.</p>
+            </div>
+        </section>
+
+        <section id="q2" class="question">
+            <h2>Reading Question 2 of 5: Set up a new printer</h2>
+            <p>Put the sentences in the right order. The first sentence is an example.</p>
+            <p><strong>0. To set up a new printer, follow these instructions.</strong></p>
+            <div class="answers">
+                <h3>Suggested Answers</h3>
+                <p>1. <strong class="green-text">First, you need</strong> to find an appropriate place to put your printer.<br>
+                   2. <strong class="green-text">When your printer is in place</strong>, turn it on using the switch.<br>
+                   3. <strong class="green-text">A light comes on</strong> at the front of the printer.<br>
+                   4. <strong class="green-text">If the light is green</strong>, your printer is ready to use.<br>
+                   5. <strong class="green-text">Before using the printer</strong>, you need to put papers into it.</p>
+                <p><strong>Giải thích:</strong><br>
+                1. Đầu tiên, bạn cần tìm một vị trí thích hợp để đặt máy in của mình.<br>
+                2. Khi máy in đã được đặt đúng chỗ, bật máy bằng công tắc.<br>
+                3. Một đèn sáng lên ở phía trước máy in.<br>
+                4. Nếu đèn màu xanh lá cây, máy in của bạn đã sẵn sàng để sử dụng.<br>
+                5. Trước khi sử dụng máy in, bạn cần đặt giấy vào trong máy.</p>
+            </div>
+        </section>
+
+        <section id="q3" class="question">
+            <h2>Reading Question 3 of 5: Visitors' day at an animal hospital</h2>
+            <p>Put the sentences in the right order. The first sentence is done for you.</p>
+            <p><strong>0. Please follow these instructions below to ensure you have a wonderful visit at our hospital.</strong></p>
+            <div class="answers">
+                <h3>Suggested Answers</h3>
+                <p>1. <strong class="green-text">When you arrive</strong>, go straight to the main office to collect your ticket.<br>
+                   2. <strong class="green-text">You must show this</strong> to the member of staff before going to the hospital.<br>
+                   3. <strong class="green-text">Inside the building</strong>, you will see a photography exhibition.<br>
+                   4. <strong class="green-text">Before you look</strong> at the picture, a guide will tell you about the day's event.<br>
+                   5. <strong class="green-text">These activities</strong> include feeding and playing with the animals.</p>
+                <p><strong>Giải thích:</strong><br>
+                1. Khi đến nơi, hãy đến thẳng văn phòng chính để lấy vé.<br>
+                2. Bạn phải xuất trình vé này cho nhân viên trước khi đến bệnh viện.<br>
+                3. Bên trong tòa nhà, bạn sẽ thấy một triển lãm ảnh.<br>
+                4. Trước khi xem ảnh, một hướng dẫn viên sẽ kể cho bạn nghe về sự kiện trong ngày.<br>
+                5. Các hoạt động này bao gồm cho động vật ăn và chơi với chúng.</p>
+            </div>
+        </section>
+
+        <section id="q4" class="question">
+            <h2>Reading Question 4 of 5: Interview on attitude toward art</h2>
+            <p>Four people respond to the interview on their attitude toward art. Answer the questions below.</p>
+            <p><strong>Person A:</strong> I know the names of some famous artists, and I recognize some paintings. However, I only go to exhibitions when my friends want to. I find that seeing exhibitions is often boring, and while I appreciate the skill it takes to create art, I can't help but feel that many galleries lack excitement. Despite this, I do have some artistic techniques myself; I enjoy painting in my free time, but I prefer to create rather than just observe.</p>
+            <p><strong>Person B:</strong> I think that looking at art is a personal experience. I much prefer to see art on my own, where I can take my time to appreciate each piece without distractions. I think visitors to galleries should focus more on the art itself rather than chatting or using their phones. When I'm alone with a painting, I can truly connect with it and reflect on what the artist intended.</p>
+            <p><strong>Person C:</strong> I find art fascinating. I have developed a good knowledge about various art movements and techniques over the years. Each piece tells a story, and I love discovering the history behind them. The colors, forms, and emotions captured in art pieces captivate my imagination. I could spend hours discussing and analyzing art, and I always look forward to learning more.</p>
+            <p><strong>Person D:</strong> I have great memories associated with art, as I have been going to numerous art exhibitions in my whole life. I cherish the moments spent with friends and family, exploring galleries together. Seeing art with people close to me adds a special dimension to the experience; we share our thoughts and feelings about the pieces we encounter. These shared experiences have created lasting bonds and wonderful memories.</p>
+	    <h3>Suggested Answers</h3>
+            <ol>		
+                <li>Who has some artistic skills? <strong class="green-text">[Person A]</strong></li>
+                <li>Who prefers seeing art by themselves? <strong class="green-text">[Person B]</strong></li>
+                <li>Who has a good knowledge of art? <strong class="green-text">[Person C]</strong></li>
+                <li>Who thinks visitors to the galleries should focus more on the art? <strong class="green-text">[Person B]</strong></li>
+                <li>Who likes seeing art with others? <strong class="green-text">[Person D]</strong></li>
+                <li>Who has been going to art exhibitions all their life? <strong class="green-text">[Person D]</strong></li>
+                <li>Who thinks seeing an exhibition is boring? <strong class="green-text">[Person A]</strong></li>
+            </ol>
+            <div class="answers">                              
+                <p><strong>Giải thích:</strong><br>
+                1. <em>Person A</em>: Enjoys painting in free time <br>Trích dẫn: <em style="color: red;">"I enjoy painting in my free time..."</em>.<br>
+                2. <em>Person B</em>: Prefers seeing art alone <br>Trích dẫn: <em style="color: red;">"I much prefer to see art on my own..."</em>.<br>
+                3. <em>Person C</em>: Has good knowledge of art <br>Trích dẫn: <em style="color: red;">"I have developed a good knowledge about various art movements..."</em>.<br>
+                4. <em>Person B</em>: Thinks visitors should focus on art <br>Trích dẫn: <em style="color: red;">"I think visitors to galleries should focus more on the art..."</em>.<br>
+                5. <em>Person D</em>: Likes seeing art with others <br>Trích dẫn: <em style="color: red;">"Seeing art with people close to me..."</em>.<br>
+                6. <em>Person D</em>: Has been to exhibitions all their life <br>Trích dẫn: <em style="color: red;">"I have been going to numerous art exhibitions..."</em>.<br>
+                7. <em>Person A</em>: Finds exhibitions boring <br>Trích dẫn: <em style="color: red;">"I find that seeing exhibitions is often boring..."</em>.</p>
+            </div>
+        </section>
+
+        <section id="q5" class="question">
+            <h2>Reading Question 5 of 5: Frozen Antarctica</h2>
+            <p>Match the headings to the paragraphs. There is one heading that you will not use.</p>
+            <p><strong>Headings:</strong> First step on the ice, Hidden geography, Less effort needed, Race to the pole, Where is the end of the earth, Who is in charge, Why is it so cold</p>
+            <p><strong class="green-text">1. [Who is in charge]</strong> This continent is governed by an international agreement known as the Antarctic Treaty System...</p>
+            <p><strong class="green-text">2. [First step on the ice]</strong> Setting foot on Antarctica is a significant event for any explorer or scientist...</p>
+            <p><strong class="green-text">3. [Where is the end of the earth]</strong> Positioned around the South Pole, Antarctica represents the southernmost point on the planet...</p>
+            <p><strong class="green-text">4.[Hidden geography]</strong> Beneath the massive ice sheets lies a concealed landscape that reveals much about the planet's geological history...</p>
+            <p><strong class="green-text">5. [Race to the pole]</strong> The pursuit of the southernmost point in the early 20th century captivated many...</p>
+            <p><strong class="green-text">6. [Less effort needed]</strong> Recent advancements in technology have made reaching this icy expanse easier than in the past...</p>
+            <p><strong class="green-text">7. [Why is it so cold]</strong> The extreme low temperatures in this region result mainly from its high elevation and geographic positioning...</p>
+            <div class="answers">                
+                <p><strong>Giải thích:</strong><br>
+                1. <em>Who is in charge</em>: Discusses the Antarctic Treaty System <br>Trích dẫn: <em style="color: red;">"This continent is governed by..."</em>.<br>
+                2. <em>First step on the ice</em>: Describes the experience of arriving <br>Trích dẫn: <em style="color: red;">"The first step on the ice..." </em>.<br>
+                3. <em>Where is the end of the earth</em>: Mentions the South Pole <br>Trích dẫn: <em style="color: red;">"Positioned around the South Pole..."</em>.<br>
+                4. <em>Hidden geography</em>: Talks about the landscape under ice <br>Trích dẫn: <em style="color: red;">"Beneath the massive ice sheets..."</em>.<br>
+                5. <em>Race to the pole</em>: Covers historical expeditions <br>Trích dẫn: <em style="color: red;">"Adventurers such as Robert Falcon Scott..."</em>.<br>
+                6. <em>Less effort needed</em>: Discusses modern travel advancements <br>Trích dẫn: <em style="color: red;">"Recent advancements in technology..."</em>.<br>
+                7. <em>Why is it so cold</em>: Explains the cold climate <br>Trích dẫn: <em style="color: red;">"The extreme low temperatures..."</em>.</p>
+                <p><strong class="green-text">Cách nhớ Key:</strong><br>
+		<strong>Cách 1 (bóc tách từ trong câu): </strong>Who -> First -> Earth -> Geography -> Race -> Less -> Cold <br></p>
+		<strong>Cách 2 (dùng các từ đầu mỗi câu): </strong>Who is -> First step -> Where is -> Hidden geography -> Race to -> Less effort -> Why is <br>
+            </div>
+        </section>
+
+        <div class="buttons">
+            <button id="prevBtn" disabled>Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const sections = document.querySelectorAll('.question');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentSection = 0;
+
+        function updateSections() {
+            sections.forEach((section, index) => {
+                section.classList.toggle('active', index === currentSection);
+            });
+            prevBtn.disabled = currentSection === 0;
+            nextBtn.disabled = currentSection === sections.length - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSection > 0) {
+                currentSection--;
+                updateSections();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSection < sections.length - 1) {
+                currentSection++;
+                updateSections();
+            }
+        });
+
+        updateSections(); // Khởi tạo trạng thái ban đầu
+    </script>
+</body>
+</html>

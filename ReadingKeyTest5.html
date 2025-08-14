@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUIT B2 Aptis - Reading Test 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .question {
+            display: none; /* Ẩn tất cả các section ban đầu */
+        }
+        .question.active {
+            display: block; /* Chỉ hiển thị section có class active */
+        }
+        .question h2 {
+            color: #333;
+        }
+        .answers {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .buttons button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .buttons button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+	.green-text {
+        	color: green;
+    	}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: blue;">HUIT B2 Aptis - Reading Test 4</h1>             
+        </header>        
+
+        <section id="q1" class="question">
+            <h2>Reading Question 1 of 5: Reading part 1</h2>
+            <p>Choose one word from the list for each gap. The first one is done for you</p>
+            <p><strong>Hi Jane,</strong><br>
+                Thanks for your email. Everything is <em><strong>good</strong></em>  (example) to me now.</p>
+            <p>My <strong class="green-text">[home]</strong> is now far from work.<br>
+               I have to <strong class="green-text">[drive]</strong> to work.<br>
+               I sometimes meet <strong class="green-text">[friends]</strong> at the coffee shop for lunch.<br>
+               We walk in the <strong class="green-text">[park]</strong> sometimes.<br>
+               The trees are <strong class="green-text">[pretty]</strong> so we like looking at them.</p>
+            <div class="answers">                
+                <p><strong>Giải thích:</strong><br>		
+                1. <strong style="color: red;">Nhà </strong> <strong class="green-text">[home]</strong> tôi hiện giờ cách xa nơi làm việc.<br>
+                2. Tôi phải <strong style="color: red;">lái </strong> <strong class="green-text">[drive]</strong> xe đi làm.<br>
+                3. Thỉnh thoảng tôi gặp <strong style="color: red;">bạn bè </strong> <strong class="green-text">[friends]</strong> ở quán cà phê để ăn trưa.<br>
+                4. Thỉnh thoảng chúng tôi đi dạo trong <strong style="color: red;">công viên </strong> <strong class="green-text">[park]</strong>.<br>
+                5. Cây cối rất <strong style="color: red;">đẹp </strong> <strong class="green-text">[pretty]</strong> nên chúng tôi thích ngắm chúng.</p>
+            </div>
+        </section>
+
+        <section id="q2" class="question">
+            <h2>Reading Question 2 of 5: How to plant potatoes</h2>
+            <p>The sentences below are from some directions. Put the sentences in the right order. The first sentence is done for you.</p>
+            <p><strong>0. To ensure successful growth, follow these steps when planting potatoes.</strong></p>
+            <div class="answers">
+                <h3>Suggested Answers</h3>
+                <p>1. <strong class="green-text">All you need </strong>is some earth, a big pot and some old potatoes.<br>
+                   2. <strong class="green-text">An old potato has a little root</strong>, and it is a little green and it is not good for eating.<br>
+                   3. <strong class="green-text">That color means it is perfect for growing,</strong> then you pull a hole on earth and put it deep down.<br>
+                   4. <strong class="green-text">When it's done,</strong> put it in a sunny place and water it every day.<br>
+                   5. <strong class="green-text">This care will help</strong> the potato grow in a couple of weeks.</p>
+                <p><strong>Giải thích:</strong><br>				
+                    <em>0. Để đảm bảo sự phát triển thành công, hãy làm theo các bước sau khi trồng khoai tây:</em><br>
+                    1. ất cả những gì bạn cần là một ít đất, một củ khoai tây cũ và một chỗ đất rộng.  <br>
+                    2. Một củ khoai tây cũ sẽ có một ít rễ, sẽ hơi xanh và không còn tốt để ăn.<br>                
+                    3. Màu sắc này có nghĩa là nó hoàn hảo để trồng, bạn nên cho đất vào chậu và đào sâu xuống. <br>
+                    4. Khi bạn đã làm xong, bạn nên tưới nước mỗi ngày và đặt nó ở một nơi có nhiều ánh sáng mặt trời.<br>
+                    5. Với sự chăm sóc này, bạn sẽ thấy một cây khoai tây mọc lên sau vài tuần.  </p>
+            </div>
+        </section>
+
+        <section id="q3" class="question">
+            <h2>Reading Question 3 of 5: The sentences below are from some directions.</h2>
+            <p>The sentences below are from some directions. Put the sentences in the right order. The first sentence is done for you. Instructions for drivers.</p>
+            <p><strong>0. Before starting your deliveries, make sure to check in at the office.</strong></p>
+            <div class="answers">
+                <h3>Suggested Answers</h3>
+                <p>1. <strong class="green-text">You should arrive</strong> at the main office by 6.30 am and collect your keys.<br>
+                   2. <strong class="green-text">In the office,</strong> you can also collect a map of your route.<br>
+                   3. <strong class="green-text">You must follow</strong> the route on the map to deliver the packages.<br>
+                   4. <strong class="green-text">When you have completed</strong> all delivery, return to the office.<br>
+                   5. <strong class="green-text">You must return</strong> your keys to the office manager after you get back.</p>
+                <p><strong>Giải thích:</strong><br>
+                    <em>0. Trước khi giao hàng, chắc chắn kiểm tra hàng hóa tại văn phòng.</em><br>
+                    1. Bạn phải đến văn phòng chính trước 6:30 sáng và nhận chìa khóa<br>
+                    2. Tại văn phòng, bạn cũng có thể nhận bản đồ lộ trình của mình.<br>
+                    3. Bạn phải đi theo lộ trình trên bản đồ để giao hàng.<br>
+                    4. Khi bạn đã hoàn tất việc giao hàng, hãy quay lại văn phòng.<br>
+                    5. Bạn phải trả lại chìa khóa cho người quản lý văn phòng sau khi bạn quay lại.</p>
+            </div>
+        </section>
+
+        <section id="q4" class="question">
+            <h2>Reading Question 4 of 5: express their opinions about technology.</h2>
+            <p>Four people express their opinions about technology. Read their comments and answer the questions below.</p>
+            <p><strong>Jose:</strong> I moved to a new country and it is challenging to stay in touch with relatives, but thanks to technology, I can now easily contact my family. I rely on technology a lot for this reason, and I believe many people nowadays depend on it too. It makes sense, and I have no issues with that. Technology has made staying connected much more convenient and accessible for all of us.</p>
+            <p><strong>Marisol:</strong> I work in finance and it is normal for me to use technology to update international banking information and I am an accountant. However, looking at the screen for too long makes my eyes hurt. Also, using my phone for extended periods before bedtime affects my sleep, so I avoid it after 9 p.m. to ensure a good night's rest.</p>
+            <p><strong>Bao:</strong> Our family uses technology a lot. My sister called mom even inside the house! Although my dad told us not to use the phone at night, I use it anyway. I find it convenient to watch movies and listen to music. I also use it to play games with friends. My friends always have the most updated games, which puts pressure on me to buy the latest as soon as I can. I don't want to lag behind them.</p>
+            <p><strong>Sira:</strong> I am a professional painter, which is not traditionally connected to technology, but perhaps I will use it more in the future. I have a laptop at home. Whenever I use it, my daughter becomes really interested, so I have to keep it locked away. Although some of my friends are keen on let children exposed to technology, I think it would have effect on their brain development.</p>
+	    <h3>Suggested Answers</h3>
+            <ol>		
+                <li>Who uses technology to communicate with family?<strong style="color: blue;">[Jose]</strong></li>
+			Trích dẫn: <em style="color: red;"> "I can now easily contact my family."</em>.<br>
+                <li>Who thinks children shouldn't use technology?<strong style="color: blue;">[Sira]</strong></li>
+			Trích dẫn: <em style="color: red;">  "I think it would have effect on their brain development."</em>.<br>
+                <li>Who advises against using technology before going to bed?<strong style="color: blue;">[Marisol]</strong></li>
+			Trích dẫn: <em style="color: red;"> "I avoid it after 9 p.m. to ensure a good night's rest."</em>.<br>
+                <li>Who uses technology for entertainment?<strong style="color: blue;">[Bao]</strong></li>
+			Trích dẫn: <em style="color: red;"> "I find it convenient to watch movies and listen to music. I also use it to play games with friends."</em>.<br>
+                <li>Who believes that people depend too much on technology?<strong style="color: blue;">[Jose]</strong></li>
+			Trích dẫn: <em style="color: red;"> "I believe many people nowadays depend on it too."</em>.<br>
+                <li>Who uses technology for work purposes?<strong style="color: blue;">[Marisol]</strong></li>
+			Trích dẫn: <em style="color: red;"> "I work in finance and it is normal for me to use technology to update international banking information."</em>.<br>
+                <li>Who buys the latest technology products?<strong style="color: blue;">[Bao]</strong></li>
+			Trích dẫn: <em style="color: red;"> "My friends always have the most updated games, which puts pressure on me to buy the latest as soon as I can."</em>.<br>
+            </ol>            
+        </section>
+
+        <section id="q5" class="question">
+            <h2>Reading Question 5 of 5: Renting a Hotel as a Home</h2>
+            <p>Read the passage quickly. Choose a heading for each numbered paragraph (1-7) from the drop-down box. There is one more heading than you need.</p>
+            <p><strong class="green-text">1. [A Financial Viable Solution]</strong><br>
+		        1. In today's world, many individuals are opting to live in hotels because it is more affordable than renting a house. The cost of renting a hotel covers all expenses, including water, electricity and even meals, often surpassing what traditional homes offer. Moreover, residents have the opportunity to negotiate long-term stays with hotel managers, making hotel living more cost-effective compared to renting a house.</p>
+            <p><strong class="green-text">2. [The Price of Convenience is High]</strong><br> 
+		        2. While it may seem convenient to have meals readily available with private chefs in hotel restaurants, there are potential downsides to consider. Reliance on outside food options can impact health. Hotel meals often prioritize convenience over nutrition, which can lead to an unhealthy diet. This, in turn, may result in weight gain and nutrient deficiencies, leading to various health issues. As a result, you can have suffered from medical bills in the long term – if you use the food in the restaurant cooked by chief.</p>
+            <p><strong class="green-text">3. [The Importance of Planning in Advance]</strong><br>
+                3. Moving to a hotel for an extended period requires careful planning and preparation. It's not a decision that can be made overnight. Individuals need to consider what belongings to bring, how to transport them, and how to organize their new living space. It's important to prioritize essential items and leave behind what is not necessary. By planning ahead, individuals can ensure a smooth transition to hotel living, avoiding unnecessary stress and disruptions.</p>
+            <p><strong class="green-text">4. [The Impact of Losing Freedom]</strong><br>
+                4. Living in a hotel comes with certain rules and regulations that residents must follow. They have to adapt to the hotel’s policies and accommodate different lifestyles of fellow residents. This can sometimes mean compromising personal preferences to maintain harmony within the hotel environment. While there may be a loss of certain freedoms compared to living in a house, the trade-off is the convenience and services provided by the hotel.</p>
+            <p><strong class="green-text">5. [The Benefits of Living Less]</strong><br>
+                5. Choosing to live in a hotel instead of renting a house often means downsizing and living with fewer possessions. This can bring various benefits, such as reduced clutter, easier maintenance, and a simplified lifestyle. Living with less can also lead to greater flexibility and mobility, as individuals are not tied down to a specific location or burdened with extensive belongings. Embracing a minimalist approach can enhance a sense of freedom and offer a more streamlined living experience.</p>
+            <p><strong class="green-text">6. [The Challenges that Come with a New Perspective]</strong><br>
+                6. Adjusting to hotel living can be tough, but it brings fresh outlooks. Living with less in a smaller space allows residents to focus on experiences instead of stuff, leading to a simpler and more flexible lifestyle. Plus, being in a hotel exposes people to different cultures and diverse individuals, broadening their minds and promoting openness. This change in perspective encourages personal growth, adaptability, and a deeper appreciation for the transient nature of life.</p>
+            <p><strong class="green-text">7. [Competitive Business]</strong><br>
+                7. As the trend of living in hotels becomes increasingly popular, the hotel industry faces growing competition. Hotels must continually enhance their offerings and services to attract guests and secure their position in the market. The future of hotel living is predicted to be a competitive arena, as establishments strive to captivate customers and meet their evolving needs and preferences. This competition benefits consumers, as it fosters innovation and ensures a diverse range of hotel options to choose from.</p>
+            <div class="answers">                
+                <p><strong>Giải thích:</strong><br>
+                1. <em><strong>A Financial</strong></em> Viable Solution <br>
+                    Trích dẫn: <em style="color: red;">"The cost of renting a hotel covers all expenses, including water, electricity and even meals, often surpassing what traditional homes offer." </em>.<br>
+                2. <em><strong>The Price </strong></em> of Convenience is High<br>
+                    Trích dẫn: <em style="color: red;">"Reliance on outside food options can impact health. Hotel meals often prioritize convenience over nutrition, which can lead to an unhealthy diet."</em>.<br>
+                3. <em><strong>The Importance</strong></em> of Planning in Advance<br>
+                    Trích dẫn: <em style="color: red;">"Moving to a hotel for an extended period requires careful planning and preparation. It's not a decision that can be made overnight."</em>.<br>
+                4. <em><strong>The Impact</strong></em> of Losing Freedom<br>
+                    Trích dẫn: <em style="color: red;"> "Living in a hotel comes with certain rules and regulations that residents must follow."</em>.<br>
+                5. <em><strong>The Benefits</strong></em> of Living Less<br>
+                    Trích dẫn: <em style="color: red;"> "Choosing to live in a hotel instead of renting a house often means downsizing and living with fewer possessions."</em>.<br>
+                6. <em><strong>The Challenges</strong></em> that Come with a New Perspective<br>
+                    Trích dẫn: <em style="color: red;"> "Living with less in a smaller space allows residents to focus on experiences instead of stuff, leading to a simpler and more flexible lifestyle."</em>.<br>
+                7. <em><strong>Competitive</strong></em> Business<br>
+                    Trích dẫn: <em style="color: red;"> "The future of hotel living is predicted to be a competitive arena, as establishments strive to captivate customers and meet their evolving needs and preferences."</em>.</p>
+                <p><strong class="green-text">Cách nhớ Key:</strong><br>
+		<strong>Cách 1 (các chữ cái đầu tiên): </strong>A.T.T.T.T.T.C<br></p>
+		<strong>Cách 2 (dùng các từ đầu mỗi câu): </strong>A Financial -> (The) Price -> (The) Importance -> (The) Impact -> (The) Benefits -> (The) Challenges -> Competitive<br>
+            </div>
+        </section>
+
+        <div class="buttons">
+            <button id="prevBtn" disabled>Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const sections = document.querySelectorAll('.question');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentSection = 0;
+
+        function updateSections() {
+            sections.forEach((section, index) => {
+                section.classList.toggle('active', index === currentSection);
+            });
+            prevBtn.disabled = currentSection === 0;
+            nextBtn.disabled = currentSection === sections.length - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSection > 0) {
+                currentSection--;
+                updateSections();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSection < sections.length - 1) {
+                currentSection++;
+                updateSections();
+            }
+        });
+
+        updateSections(); // Khởi tạo trạng thái ban đầu
+    </script>
+</body>
+</html>
